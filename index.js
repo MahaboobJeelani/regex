@@ -1,9 +1,9 @@
- //Predefined Classes
+//Predefined Classes
 // \d (Matches any digit 0-9)
 // Explanation: \d+ matches one or more digits. In this case, it matches "42".
-// const regex = /\d+/;
-// const str = "i have 233 apples"
-// console.log(str.match(regex));
+const regex = /\d+/;
+const str = "i have 233 apples"
+console.log(str.match(regex));
 
 // \D (Matches any non-digit)
 // Explanation: \D+ matches one or more non-digit characters. It matches the parts of the string without numbers, like "I have " and " apples.".
